@@ -1,0 +1,55 @@
+{
+  "name": "wayne",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/core": "^10.0.14",
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "concurrently": "^4.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "logger": "0.0.1",
+    "mongoose": "^5.6.0",
+    "morgan": "^1.9.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-ionicons": "^3.0.1",
+    "react-notifications": "^1.4.3",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "3.0.1",
+    "react-spinners": "^0.5.5",
+    "react-transition-group": "^4.1.0",
+    "redux": "^4.0.1",
+    "video-react": "^0.13.7"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "dev": "concurrently \"cd ..\\ && node server.js\" \"react-scripts start\"",
+    "build": "react-scripts build",
+    "test": "mocha '*test.js'",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:3001",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
